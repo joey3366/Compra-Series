@@ -2,6 +2,11 @@ body{
     background-color: #F2FCFC;
 }
 
-.navbar-brand img{
-    width: 25%;
+.containerasul{
+    width: 315px;
 }
+.navbar-brand img{
+    width: 310px;
+    
+}
+

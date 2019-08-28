@@ -8,6 +8,16 @@ module.exports = app => {
         res.render('index');
     });
     
+    router.get('/singup',(req, res, next) =>{
+
+        res.render('singup');
+    });
+
+    router.get('/login',(req, res, next) =>{
+
+        res.render('login');
+    });
+    
     router.get('/', home.index);
     app.use(router);
 };
